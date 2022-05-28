@@ -1,0 +1,235 @@
+:root {
+    --header-color: #212121; 
+    --accent-color: #2196F3;
+    --main-font:  Roboto, sans-serif;
+    --add-colar: #757575;
+
+}
+
+body {
+    font-family: var(--main-font);
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.header {
+    background-color: white;
+}
+
+/*--------------------------------HEADER-------------------------------------------------------*/
+.header-logo {
+    font-family: 'Raleway' sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.header-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--header-color);
+}
+
+.header-link:hover {
+    color: var(--accent-color);
+}
+
+.header-link:focus {
+    color: var(--accent-color);
+}
+
+.header-tel {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--add-colar);
+}
+
+.header-tel:hover { 
+    color: var(--accent-color);
+}
+
+.header-tel:focus { 
+    color: var(--accent-color);
+}
+
+.header-mail {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--add-colar);
+}
+
+.header-mail:hover {
+    color: var(--accent-color);
+}
+
+.header-mail:focus {
+    color: var(--accent-color);
+}
+
+/*--------------------------------SLOGAN------------------------------------------*/
+.slogan {
+    background: #2F303A;
+}
+
+.slogan-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+
+.slogan-btn {
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+   /*-----isnt neccessary----------*/
+    background-color: #2196F3;
+}
+
+/*--------------------------ABOUT--------------------*/
+    /*-----isnt neccessary----------*/
+.about-list {
+    column-count: 4;
+}
+
+.about-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--header-color);
+}
+
+.about-after-title {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--add-colar);
+}
+
+/*------------------------------EXAMPLE-----------------*/
+.example-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--header-color);
+}
+
+/*-----isnt neccessary----------*/
+.example-list {
+    column-count: 3;
+}
+
+/*---------------------------TEAM-----------------------------*/
+/*-----isnt neccessary----------*/
+.team {
+    background-color:#F5F4FA;
+}
+
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--header-color);
+}
+
+.team-after-title {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--add-colar);
+    font-weight: 400;
+}
+
+/*------------------------------PORTFOLIO----------------------------------*/
+.portfolio-btn {
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--header-color);
+    /*-----isnt neccessary----------*/
+    background-color: #2196F3;
+}
+
+.portfolio-titles {
+    font-weight: 700;
+    line-height: 2.00;
+    letter-spacing: 0.06em;
+    color: var(--header-color);
+    font-size: 18px;
+}
+
+.portfolio-after-title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--add-colar);
+}
+
+/*-----------------------------FOOTER------------------------------*/
+/*-----isnt neccessary----------*/
+.footer {
+    background-color: #2F303A;
+}
+
+.footer-mail {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.footer-tel {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.footer-address {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
