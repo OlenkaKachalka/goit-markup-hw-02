@@ -24,12 +24,17 @@ body {
 
 /*--------------------------------HEADER-------------------------------------------------------*/
 .header-logo {
-    font-family: 'Raleway' sans-serif;
+    font-family: 'Raleway',sans-serif;
+    font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.19;
+    line-height: 1,19;
     letter-spacing: 0.03em;
     color: #2196F3;
+}
+    
+.logo-accent-main {
+    color: #212121;
 }
 
 .header-link {
@@ -92,6 +97,7 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     color: #FFFFFF;
+    text-transform:uppercase;
 }
 
 .slogan-btn {
@@ -124,7 +130,6 @@ body {
 }
 
 .about-after-title {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -153,9 +158,9 @@ body {
 }
 
 .team-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19px;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--header-color);
@@ -167,7 +172,6 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--add-colar);
-    font-weight: 400;
 }
 
 /*------------------------------PORTFOLIO----------------------------------*/
@@ -180,8 +184,6 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--header-color);
-    /*-----isnt neccessary----------*/
-    background-color: #2196F3;
 }
 
 .portfolio-titles {
@@ -193,7 +195,6 @@ body {
 }
 
 .portfolio-after-title {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
@@ -206,30 +207,33 @@ body {
     background-color: #2F303A;
 }
 
-.footer-mail {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: #FFFFFF;
-}
-
 .footer-tel {
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: #FFFFFF;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--add-colar);
+    font-weight: 500;
+    }
+    
+.footer-mail {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--add-colar);
+    font-weight: 500;
 }
-
+ 
 .footer-address {
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
+    font-style: normal;
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
 
+.logo-accent-add {
+    color: #FFFFFF;
+}
